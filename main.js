@@ -8,7 +8,7 @@ png_quality:90
 camera=document.getElementById("camera");
 Webcam.attach('#camera');
 function take_snapshot(){
-    webcam.snap(function(data_uri){
+    Webcam.snap(function(data_uri){
         document.getElementById("result").innerHTML="<img id='result_image'src='"+data_uri+"'>";
     });
 }
