@@ -1,0 +1,14 @@
+.heading{
+    width:80%;
+    font-size: 22px;
+}
+body{
+    color: white;
+    background-color: royalblue;
+}
+.nameofobjects{
+    color: navy;
+}
+label{
+    font-size:25px;
+}
